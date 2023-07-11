@@ -1,0 +1,86 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background: hsl(30, 38%, 92%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+h1,h2,p,div{
+margin: 0;
+}
+
+.contenedor-texto{
+    padding: 60px;
+}
+
+.contenedor{
+    max-width: 1000px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background: hsl(0, 0%, 100%);
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+.contenedor img{
+    width: 100%;
+}
+
+.contenedor h2{
+    font-family: 'Montserrat', sans-serif;
+    color: hsla(225, 3%, 24%, 0.374);
+    font-size: 20px;
+    letter-spacing: 5px;
+    margin-bottom: 25px;
+}
+
+.contenedor h1{
+    font-family: 'Fraunces', serif;
+    font-size: 50px;
+    max-width: 350px;
+    margin-bottom: 35px;
+}
+
+.contenedor p{
+    font-family: 'Poppins', sans-serif;
+    color: hsla(225, 3%, 24%, 0.809);
+    font-size: 20px;
+    max-width: 330px;
+    line-height: 35px;
+    margin-bottom: 35px;
+}
+
+.precio{
+    font-family: 'Fraunces', serif;
+    font-size: 50px;
+    color: hsl(158, 36%, 37%);
+    margin-right: 35px;
+}
+
+.precio-tachado{
+    font-family: 'Poppins', sans-serif;
+    color: hsla(225, 3%, 24%, 0.809);
+    font-size: 20px;
+    text-decoration: line-through;
+}
+
+.precios{
+    margin-bottom: 40px;
+    display: flex;
+    align-items: center;
+}
+
+button{
+    background: hsl(158, 36%, 37%);
+    color: white;
+    border: none;
+    width: 370px;
+    height: 65px;
+    font-size: 20px;
+    border-radius: 7px;
+}
